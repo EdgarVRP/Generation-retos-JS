@@ -10,6 +10,7 @@ function tetrahedron(n){
     }
 }
 //comprobando
+console.log('Reto 7');
 console.log(tetrahedron(10));
 console.log(tetrahedron(20));
 console.log(tetrahedron(30));
@@ -29,6 +30,7 @@ function areaPais(nombre, a){
 }
 
 //comprobando
+console.log('Reto 8');
 console.log(areaPais("Russia", 17098242));
 console.log(areaPais("USA", 9372610));
 
@@ -39,10 +41,11 @@ console.log(areaPais("USA", 9372610));
 // No se pueden utilizar condicionales, ternarios, negaciones ni operatores bit
 
 function intercambio(n){
-    return n^1;
+    return Math.abs(n-1);
 }
 
 //comprobando
+console.log('Reto 9');
 console.log(intercambio(0));
 console.log(intercambio(1));
 
@@ -68,6 +71,7 @@ function mensaje(n){
 }
 
 //comprobando
+console.log('Reto 10');
 var users = ["user1", "user2", "user3", "user4", "user5", "user6", "user7", "user8", "user9", "user10"];
 console.log(mensaje(0));
 console.log(mensaje(1));
