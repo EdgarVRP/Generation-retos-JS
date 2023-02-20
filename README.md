@@ -1,2 +1,7 @@
 # Generation-retos-JS
- Ejercicios para practicar JS en Generation, Retos 3-6
+
+ Ejercicios para practicar JS en Generation.
+
+Para correr los ejercicios:
+
+`node --watch <nombreArchivo.js>`
